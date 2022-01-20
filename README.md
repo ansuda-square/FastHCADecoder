@@ -8,6 +8,13 @@ Comparison between single and multi threaded modes of FastHCADecoder and the [hc
 
 Sample file can be found here: https://kinomyu.github.io/bgm.hca
 
+# How to build
+```sh
+cmake .
+make
+```
+Output file is named `hca`.
+
 # Changes to original
  - Multithreaded CRI HCA decoding (much higher performance)
  - Fixed WAV data chunk size
