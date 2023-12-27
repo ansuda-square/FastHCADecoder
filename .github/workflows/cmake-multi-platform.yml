@@ -66,5 +66,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: hca
-        path: ${{ runner.workspace }}/hca
+        path: ${{ runner.workspace }}/build/hca
 
